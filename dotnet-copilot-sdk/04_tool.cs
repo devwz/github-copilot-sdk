@@ -10,7 +10,7 @@ using Microsoft.Extensions.AI;
 await using var client = new CopilotClient();
 
 // ---------------------------------------------------------------
-//          Tools
+//          Custom Tool
 // ---------------------------------------------------------------
 
 // Define a custom tool that the assistant can call during a conversation

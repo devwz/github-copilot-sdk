@@ -6,7 +6,7 @@ using GitHub.Copilot;
 await using var client = new CopilotClient();
 
 // ---------------------------------------------------------------
-//          Event Subscription
+//          Streaming
 // ---------------------------------------------------------------
 
 await using var session = await client.CreateSessionAsync(new SessionConfig
